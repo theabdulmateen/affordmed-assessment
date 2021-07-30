@@ -17,8 +17,8 @@ class ToyTCPStream:
         return (data[:size], curr)
 
 if __name__ == "__main__":
+    t = ToyTCPStream()
     for _ in range(int(input())):
-        t = ToyTCPStream()
         case = int(input())
         if case == 1:
             chunk = int(input())
